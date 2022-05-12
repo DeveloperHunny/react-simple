@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "maplestory_bold";
+    src: url("../fonts/Maplestory\ Bold.ttf");
+}
+
+@font-face {
+    font-family: "maplestory_light";
+    src: url("../fonts/Maplestory\ Light.ttf");
+}
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "maplestory_bold";
+}
+
+hr{
+    height: 5px !important;
+}
+
+ul li{
+    list-style: none;
+}
