@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 
 //Main Contents
 import Counter from "./components/main_contents/counter";
-import Shop from "./components/main_contents/shop";
+import ShopWithParams from "./components/main_contents/shop";
 
 function NotFound(){
     return(
@@ -25,7 +25,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Main />}></Route>
           <Route path="/Counter" element={<Counter/>}></Route>
-          <Route path="/ShopMall" element={<Shop/>}></Route>
+          <Route path="/ShopMall/:userName" element={<ShopWithParams />}></Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
         <Footer/>
